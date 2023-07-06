@@ -22,8 +22,8 @@ builder.Services.AddCors(policy =>
 });
 
 // ≈‰÷√ ˝æ›ø‚
-var oracleConnectionString = "User Id=AIR_ROWING;Password=airrowing;" +
-            "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=47.117.160.47)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=helowin)));";
+var oracleConnectionString = "User Id=test;Password=123456;" +
+            "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=47.117.160.47)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=xe)));";
 builder.Services.AddDbContext<RowingDb>(options =>
     options.UseOracle(oracleConnectionString));
 

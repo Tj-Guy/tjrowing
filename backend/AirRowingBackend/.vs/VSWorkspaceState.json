@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers"
+    "\\Controllers",
+    "\\DTO",
+    "\\DTO\\Login",
+    "\\Entities"
   ],
-  "SelectedNode": "\\Controllers\\LoginController.cs",
   "PreviewInSolutionExplorer": false
 }
