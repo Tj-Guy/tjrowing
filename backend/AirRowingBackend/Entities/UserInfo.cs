@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AirRowingBackend.Entities
 {
-    [Table("users_name")]
+    [Table("users_info")]
     public class UserInfo
     {
         [Required]

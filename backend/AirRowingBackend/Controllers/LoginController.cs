@@ -1,5 +1,6 @@
 ﻿using AirRowingBackend.DTO.Login;
 using AirRowingBackend.Entities;
+using AirRowingBackend.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,27 +24,42 @@ namespace AirRowingBackend.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> UserLogin([FromForm] User_Id_Password IdPassword)
+        public async Task<IActionResult> UserLogin([FromForm] LoginRequest request)
         {
-            var user = await _db.UserInfos.FirstOrDefaultAsync(u => u.UserId == IdPassword.UserId && u.UserPassword == IdPassword.UserPassword);
-            if (user == null)
+            var result = await _db.UserInfos.Where(u => (1 == 1
+                && u.UserId == request.id
+                && u.UserPassword == Md5Helper.CalculateMd5Hash(request.password)
+                )).ToListAsync();
+
+            if(result.Count == 0)
             {
-                return NotFound(new { message = "无效的用户标识或密码" });
+                return new OkObjectResult(new LoginResponse { status=0, message="用户名或密码错误"});
             }
-            else
-            {
-                return Ok(new { message = "登录成功" });
-            }
+
+            return new OkObjectResult(new LoginResponse { status = 1, message = "登录成功", userinfos = result.First() });
         }
 
 
         [HttpPut]
-        public async Task<IActionResult> Register([FromForm] UserInfo userInfo)
+        public async Task<IActionResult> UserRegister([FromForm] RegisterRequest request)
         {
-            _db.UserInfos.Add(userInfo);
-            await _db.SaveChangesAsync();
-            return Ok();
-        }
+            //检查是否有重名用户
+            var check= await _db.UserInfos.Where(u => (1 == 1
+                && u.UserId == request.id
+                )).ToListAsync();
+            if (check.Count > 0)
+                return new OkObjectResult(new RegisterResponse { status = 0, message = "用户名重复，注册失败" });
 
+            await _db.UserInfos.AddAsync(new UserInfo
+            {
+                UserEmail = request.email,
+                UserId = request.id,
+                UserPassword = Md5Helper.CalculateMd5Hash(request.password)
+            });
+            await _db.SaveChangesAsync();
+            var new_user = await _db.UserInfos.FindAsync(request.id);
+
+            return new OkObjectResult(new RegisterResponse { status = 1, message = "注册成功", userinfos=new_user});
+        }
     }
 }

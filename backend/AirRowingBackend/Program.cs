@@ -1,4 +1,5 @@
 using AirRowingBackend.Entities;
+using AirRowingBackend.Helpers;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 
@@ -20,15 +21,13 @@ builder.Services.AddCors(policy =>
             .AllowAnyHeader());
 });
 
-var app = builder.Build();
-
 // ≈‰÷√ ˝æ›ø‚
 var oracleConnectionString = "User Id=AIR_ROWING;Password=airrowing;" +
             "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=47.117.160.47)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=helowin)));";
 builder.Services.AddDbContext<RowingDb>(options =>
-{
-    options.UseOracle(oracleConnectionString);
-});
+    options.UseOracle(oracleConnectionString));
+
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
