@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSProject\\AirRowingBackend\\AirRowingBackend\\AirRowingBackend.csproj": {}
+    "C:\\Users\\汤可娴\\Source\\Repos\\tjrowing\\login_tsh_tkx\\backend\\AirRowingBackend\\AirRowingBackend.csproj": {}
   },
   "projects": {
-    "D:\\VSProject\\AirRowingBackend\\AirRowingBackend\\AirRowingBackend.csproj": {
+    "C:\\Users\\汤可娴\\Source\\Repos\\tjrowing\\login_tsh_tkx\\backend\\AirRowingBackend\\AirRowingBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSProject\\AirRowingBackend\\AirRowingBackend\\AirRowingBackend.csproj",
+        "projectUniqueName": "C:\\Users\\汤可娴\\Source\\Repos\\tjrowing\\login_tsh_tkx\\backend\\AirRowingBackend\\AirRowingBackend.csproj",
         "projectName": "AirRowingBackend",
-        "projectPath": "D:\\VSProject\\AirRowingBackend\\AirRowingBackend\\AirRowingBackend.csproj",
+        "projectPath": "C:\\Users\\汤可娴\\Source\\Repos\\tjrowing\\login_tsh_tkx\\backend\\AirRowingBackend\\AirRowingBackend.csproj",
         "packagesPath": "C:\\Users\\汤可娴\\.nuget\\packages\\",
-        "outputPath": "D:\\VSProject\\AirRowingBackend\\AirRowingBackend\\obj\\",
+        "outputPath": "C:\\Users\\汤可娴\\source\\repos\\tjrowing\\login_tsh_tkx\\backend\\AirRowingBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\汤可娴\\AppData\\Roaming\\NuGet\\NuGet.Config",

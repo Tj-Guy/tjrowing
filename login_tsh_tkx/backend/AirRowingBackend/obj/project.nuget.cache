@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nWjsRfcLA5C23SCct6HGy3UT7T7Th48XlhXhWv9EvFf7Eus40BjC3X0aZTCde50nrbDWjaJ7AxWysDyDlkd0BQ==",
+  "dgSpecHash": "1IG8mWlsRPwJ9JLJ/Z2hLKojqk/4vF1cc5hxm/1Imd3rOU3lu5Irfisju3hPT0cnPihnBBZqpNEFHPxDE3PHmw==",
   "success": true,
-  "projectFilePath": "D:\\VSProject\\AirRowingBackend\\AirRowingBackend\\AirRowingBackend.csproj",
+  "projectFilePath": "C:\\Users\\汤可娴\\Source\\Repos\\tjrowing\\login_tsh_tkx\\backend\\AirRowingBackend\\AirRowingBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\汤可娴\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\汤可娴\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",

@@ -2,7 +2,7 @@
 {
     public class User_Id_Password
     {
-        public int Id { get; set; }
-        public string Password { get; set; } = null!;
+        public int UserId { get; set; }
+        public string UserPassword { get; set; } = null!;
     }
 }
