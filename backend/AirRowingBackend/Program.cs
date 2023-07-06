@@ -26,6 +26,8 @@ var oracleConnectionString = "User Id=test;Password=123456;" +
             "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=47.117.160.47)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=xe)));";
 builder.Services.AddDbContext<RowingDb>(options =>
     options.UseOracle(oracleConnectionString));
+builder.Services.AddDbContext<RowingDb>(options =>
+    options.UseOracle(oracleConnectionString));
 
 var app = builder.Build();
 

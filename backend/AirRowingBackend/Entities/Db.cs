@@ -10,7 +10,8 @@ namespace AirRowingBackend.Entities
         }
 
         public DbSet<UserInfo> UserInfos { get; set; } = null!;
-
+        public DbSet<MessagesInfo> MessagesInfos { get; set; } = null!;
+        public DbSet<MessagePost> MessagePosts { get; set; } = null!;
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             UserInfo.ConfigureDbContext(modelBuilder);
