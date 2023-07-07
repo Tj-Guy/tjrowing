@@ -21,7 +21,6 @@ namespace AirRowingBackend.Entities
 
         public static void ConfigureDbContext(ModelBuilder modelBuilder)
         {
-
         }
 
     }

@@ -10,11 +10,10 @@ namespace AirRowingBackend.Entities
         }
 
         public DbSet<UserInfo> UserInfos { get; set; } = null!;
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             UserInfo.ConfigureDbContext(modelBuilder);
-
         }
     }
 }

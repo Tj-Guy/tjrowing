@@ -1,8 +1,16 @@
 ﻿using AirRowingBackend.DTO.Login;
 using AirRowingBackend.Entities;
 using AirRowingBackend.Helpers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+
+
+
 
 // 定义AirRowingBackend命名空间下的Controllers命名空间
 namespace AirRowingBackend.Controllers
@@ -32,20 +40,35 @@ namespace AirRowingBackend.Controllers
         public async Task<IActionResult> UserLogin([FromForm] LoginRequest request)
         {
             // 在数据库中查找用户名和密码都匹配的用户
-            var result = await _db.UserInfos.Where(u => (1 == 1
-                && u.UserId == request.id
-                && u.UserPassword == Md5Helper.CalculateMd5Hash(request.password)
-                )).ToListAsync();
+            var result = await _db.UserInfos.Where(u => u.UserId == request.id &&
+                u.UserPassword == Md5Helper.CalculateMd5Hash(request.password)).ToListAsync();
 
             // 如果没有找到匹配的用户，返回错误信息
             if (result.Count == 0)
             {
-                return new OkObjectResult(new LoginResponse { status=0, message="用户名或密码错误"});
+                return new OkObjectResult(new LoginResponse { status = 0, message = "用户名或密码错误" });
             }
             // 如果找到了匹配的用户，返回成功信息和用户信息
-            return new OkObjectResult(new LoginResponse { status = 1, message = "登录成功", userinfos = result.First() });
+            var user = result.First();
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes("YourSecretKeyHerePleaseMakeSureItIsAtLeast32CharactersLong"); // Please make sure to use a secure and unique secret
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new Claim[]
+                {
+            new Claim(ClaimTypes.Name, user.UserId.ToString()),
+                    // You can add more claims here, like roles or anything else that could be useful in your application
+                }),
+                Expires = DateTime.UtcNow.AddDays(7), // The token will expire in 7 days, adjust to your needs
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            var tokenString = tokenHandler.WriteToken(token);
 
+            return new OkObjectResult(new LoginResponse { status = 1, message = "登录成功", token = tokenString, userinfos = user });
         }
+
+
 
         // 定义一个HttpPut方法用于用户注册
         [HttpPut]
