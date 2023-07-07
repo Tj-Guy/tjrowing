@@ -3,8 +3,9 @@
 </script>
 
 <template>
+  <v-container class="fill-height">
   <v-sheet width="500" class="mx-auto">
-    <v-form v-model="valid" >
+    <v-form v-model="valid" ref="form">
       <v-container class="mb-6 bg-surface-variant fill-height">
         <v-row>
           <v-col
@@ -12,7 +13,7 @@
             ld="4"
           >
             <v-text-field
-              v-model="form.id"
+              v-model="form.Id"
               :rules="idRules"
               label="账号"
               required
@@ -24,7 +25,6 @@
               required
             ></v-text-field>
             <v-text-field
-              id='pd'
               v-model="form.Password"
               :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
               :type="show1 ? 'text' : 'password'"
@@ -32,7 +32,6 @@
               label="输入密码"
               @click:append="show1 = !show1"
               required
-              trigger="blur"
             ></v-text-field>
             <v-text-field
               v-model="confirm_pd"
@@ -42,7 +41,6 @@
               label="确认密码"
               @click:append="show2 = !show2"
               required
-              trigger="blur"
             ></v-text-field>
             <v-btn @click="submit">
               Sign up
@@ -52,23 +50,28 @@
       </v-container>
     </v-form>
   </v-sheet>
+  </v-container>
 </template>
 
 <script>
 import loginToBack from "@/ax";
 import {ElMessage} from "element-plus";
 export default {
-  data: () =>({
-    show1: false,
-    show2: false,
-    valid: false,
-    alert_visible: false,
-    confirm_pd: '',
+  data () {
+    const conf = (value) => {
+      return value === this.form.Password;
+    }
+    return {
     form: {
       Id: null,
       email: '',
       Password: '',
     },
+    show1: false,
+    show2: false,
+    valid: false,
+    alert_visible: false,
+    confirm_pd: '',
     idRules: [
       value => {
         if (value) return true
@@ -98,21 +101,31 @@ export default {
         },
       ],
       confirm: [
-        (value, form) => {
-          if (value === form.Password) return true
+        value => {
+          if(conf(value)) return true
 
-          return '此密码与输入密码不一致。'
-        },
-      ],
+          return "两次输入的密码不一致"
+        }
+      ]
     },
     message: {
       type: '',
       msg: '',
     }
-  }),
+  }
+  },
   methods: {
     submit(){
-      loginToBack.post("/signup", this.form)
+      console.log({
+        ID: this.form.Id,
+        EMAIL: this.form.email,
+        PASSWORD: this.form.Password
+      })
+      loginToBack.post("/signup", {
+        ID: this.form.Id,
+        EMAIL: this.form.email,
+        PASSWORD: this.form.Password
+      })
         .then((res) => {
           console.log(res)
           if(res.status === 200)

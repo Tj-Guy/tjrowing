@@ -22,7 +22,7 @@ const app = createApp(App)
 
 registerPlugins(app)
 
-app.use(router, axios, ElementPlus)
+app.use(router, axios)
 
 app.mount('#app')
 

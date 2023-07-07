@@ -1,7 +1,5 @@
 <template>
-  <v-container class="fill-height">
-    <router-view />
-  </v-container>
+  <router-view />
 </template>
 
 <script setup>

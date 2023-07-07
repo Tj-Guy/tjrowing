@@ -1,35 +1,37 @@
 <template>
-  <v-sheet width="500" class="mx-auto">
-    <v-form v-model="valid" >
-      <v-container class="mb-6 bg-surface-variant fill-height">
-        <v-row>
-          <v-col
-            cols="12"
-            ld="4"
-          >
-            <v-text-field
-              v-model="form.Id"
-              :rules="nameRules"
-              label="Username"
-              required
-            ></v-text-field>
-            <v-text-field
-              v-model="form.Password"
-              :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
-              :type="show1 ? 'text' : 'password'"
-              :rules="pdRules"
-              label="Password"
-              @click:append="show1 = !show1"
-              required
-            ></v-text-field>
-            <v-btn @click="submit">
-              Login
-            </v-btn>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-form>
-  </v-sheet>
+  <v-container class="fill-height">
+    <v-sheet width="500" class="mx-auto">
+      <v-form v-model="valid" >
+        <v-container class="mb-6 bg-surface-variant fill-height">
+          <v-row>
+            <v-col
+              cols="12"
+              ld="4"
+            >
+              <v-text-field
+                v-model="form.Id"
+                :rules="nameRules"
+                label="Username"
+                required
+              ></v-text-field>
+              <v-text-field
+                v-model="form.Password"
+                :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
+                :type="show1 ? 'text' : 'password'"
+                :rules="pdRules"
+                label="Password"
+                @click:append="show1 = !show1"
+                required
+              ></v-text-field>
+              <v-btn @click="submit">
+                Login
+              </v-btn>
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-form>
+    </v-sheet>
+  </v-container>
 </template>
 
 <script setup>
@@ -40,6 +42,7 @@
 <script>
 import loginToBack from "@/ax";
 import {ElMessage} from "element-plus";
+
 export default {
   data: () =>({
     show1: false,
