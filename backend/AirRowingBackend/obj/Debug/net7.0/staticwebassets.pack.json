@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\HelloWorld-14ecbcd7.css",
+      "PackagePath": "staticwebassets\\assets\\HelloWorld-14ecbcd7.css"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\HelloWorld-f71ef134.js",
+      "PackagePath": "staticwebassets\\assets\\HelloWorld-f71ef134.js"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\VTextField-2c6dfff1.js",
+      "PackagePath": "staticwebassets\\assets\\VTextField-2c6dfff1.js"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\VTextField-7ee4386b.css",
+      "PackagePath": "staticwebassets\\assets\\VTextField-7ee4386b.css"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-4b0cf062.js",
+      "PackagePath": "staticwebassets\\assets\\index-4b0cf062.js"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-85575b18.css",
+      "PackagePath": "staticwebassets\\assets\\index-85575b18.css"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-95c94973.js",
+      "PackagePath": "staticwebassets\\assets\\index-95c94973.js"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-9612d6d4.css",
+      "PackagePath": "staticwebassets\\assets\\index-9612d6d4.css"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\logIn-5b686a25.js",
+      "PackagePath": "staticwebassets\\assets\\logIn-5b686a25.js"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\logo-3f834fa8.svg",
+      "PackagePath": "staticwebassets\\assets\\logo-3f834fa8.svg"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-48d3eec6.woff",
+      "PackagePath": "staticwebassets\\assets\\materialdesignicons-webfont-48d3eec6.woff"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-861aea05.eot",
+      "PackagePath": "staticwebassets\\assets\\materialdesignicons-webfont-861aea05.eot"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-bd725a7a.ttf",
+      "PackagePath": "staticwebassets\\assets\\materialdesignicons-webfont-bd725a7a.ttf"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-e52d60f6.woff2",
+      "PackagePath": "staticwebassets\\assets\\materialdesignicons-webfont-e52d60f6.woff2"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\register-e78572dc.js",
+      "PackagePath": "staticwebassets\\assets\\register-e78572dc.js"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\webfontloader-523643f5.js",
+      "PackagePath": "staticwebassets\\assets\\webfontloader-523643f5.js"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AirRowingBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AirRowingBackend.props",
+      "PackagePath": "build\\AirRowingBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AirRowingBackend.props",
+      "PackagePath": "buildMultiTargeting\\AirRowingBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AirRowingBackend.props",
+      "PackagePath": "buildTransitive\\AirRowingBackend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

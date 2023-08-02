@@ -5,6 +5,7 @@ using System.Configuration;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.Extensions.FileProviders;
 
 
 
@@ -61,8 +62,24 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.UseCors("AllowCorsPolicy");
 }
+else
+{
+    app.UseStaticFiles();
+    app.UseStatusCodePages(new StatusCodePagesOptions
+    {
+        HandleAsync = context =>
+        {
+            var response = context.HttpContext.Response;
+            if (response.StatusCode == 404)
+            {
+                response.Redirect("/index.html"); // 重定向到自定义的404错误页面
+            }
+            return Task.CompletedTask;
+        }
+    });
+}
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
