@@ -36,6 +36,6 @@ export default defineConfig({
     ],
   },
   server: {
-    port: 80,
+    port: 80,  // 如果在本地跑的话记得改成3000
   },
 })
