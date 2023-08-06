@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mhFwXdBKnPUkt9FFX3GmEudTzOQsjXarU+zIXLY+P7w=",
+  "Hash": "GVj+R1uX7JfRGHc819pZTvJ8iIKhHb1i6kFN30ZVSio=",
   "Source": "AirRowingBackend",
   "BasePath": "_content/AirRowingBackend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AirRowingBackend\\wwwroot",
       "Source": "AirRowingBackend",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\HelloWorld-14ecbcd7.css",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\HelloWorld-14ecbcd7.css",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/HelloWorld-14ecbcd7.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\HelloWorld-14ecbcd7.css"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\HelloWorld-f71ef134.js",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\HelloWorld-f71ef134.js",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/HelloWorld-f71ef134.js",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\HelloWorld-f71ef134.js"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-4b0cf062.js",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-4b0cf062.js",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/index-4b0cf062.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-4b0cf062.js"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-85575b18.css",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-85575b18.css",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/index-85575b18.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-85575b18.css"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-95c94973.js",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-95c94973.js",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/index-95c94973.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-95c94973.js"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-9612d6d4.css",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\index-9612d6d4.css",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/index-9612d6d4.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-9612d6d4.css"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\logIn-5b686a25.js",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\logIn-5b686a25.js",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/logIn-5b686a25.js",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\logIn-5b686a25.js"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\logo-3f834fa8.svg",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\logo-3f834fa8.svg",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/logo-3f834fa8.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\logo-3f834fa8.svg"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-48d3eec6.woff",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-48d3eec6.woff",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/materialdesignicons-webfont-48d3eec6.woff",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\materialdesignicons-webfont-48d3eec6.woff"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-861aea05.eot",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-861aea05.eot",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/materialdesignicons-webfont-861aea05.eot",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\materialdesignicons-webfont-861aea05.eot"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-bd725a7a.ttf",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-bd725a7a.ttf",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/materialdesignicons-webfont-bd725a7a.ttf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\materialdesignicons-webfont-bd725a7a.ttf"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-e52d60f6.woff2",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\materialdesignicons-webfont-e52d60f6.woff2",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/materialdesignicons-webfont-e52d60f6.woff2",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\materialdesignicons-webfont-e52d60f6.woff2"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\register-e78572dc.js",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\register-e78572dc.js",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/register-e78572dc.js",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\register-e78572dc.js"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\VTextField-2c6dfff1.js",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\VTextField-2c6dfff1.js",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/VTextField-2c6dfff1.js",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\VTextField-2c6dfff1.js"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\VTextField-7ee4386b.css",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\VTextField-7ee4386b.css",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/VTextField-7ee4386b.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\VTextField-7ee4386b.css"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\webfontloader-523643f5.js",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\assets\\webfontloader-523643f5.js",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "assets/webfontloader-523643f5.js",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfontloader-523643f5.js"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\favicon.ico",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\index.html",
       "SourceId": "AirRowingBackend",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\TJU_year2_second\\DBM\\Project\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\汤可娴\\Desktop\\tjrowing\\backend\\AirRowingBackend\\wwwroot\\",
       "BasePath": "_content/AirRowingBackend",
       "RelativePath": "index.html",
       "AssetKind": "All",
