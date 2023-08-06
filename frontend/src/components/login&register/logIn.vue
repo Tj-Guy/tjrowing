@@ -82,7 +82,7 @@ export default {
     submit(){
       this.form.Password = md5(this.tempPW);
       console.log(this.form);
-      loginToBack.post("/log", this.form)
+      loginToBack.post("/log/UserLogin", this.form)
         .then((res) => {
           console.log(res)
           if(res.status === 200)
