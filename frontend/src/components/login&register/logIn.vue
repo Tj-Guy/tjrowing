@@ -88,8 +88,8 @@ export default {
           if(res.status === 200)
           {
             this.$router.replace({path: "/"})
-            let token = res.headers['authorization'];
-            localStorage.setItem('tokenID', token);
+            // let token = res.headers['authorization'];
+            // localStorage.setItem('tokenID', token);
             ElMessage({
               type: "success",
               message: "登录成功"
