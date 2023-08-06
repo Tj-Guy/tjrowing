@@ -2,7 +2,7 @@ import axios from "axios"
 import {ElMessage} from "element-plus";
 
 const loginToBack =  axios.create({
-  baseURL: "https://192.168.137.243:7123",
+  baseURL: "http://47.117.160.47",
   headers: {
     "Content-Type": "application/json",
   },

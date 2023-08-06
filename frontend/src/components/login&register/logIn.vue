@@ -11,20 +11,20 @@
               <v-text-field
                 v-model="form.Id"
                 :rules="nameRules"
-                label="Username"
+                label="用户名"
                 required
               ></v-text-field>
               <v-text-field
-                v-model="form.Password"
+                v-model="tempPW"
                 :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
                 :type="show1 ? 'text' : 'password'"
                 :rules="pdRules"
-                label="Password"
+                label="密码"
                 @click:append="show1 = !show1"
                 required
               ></v-text-field>
               <v-btn @click="submit">
-                Login
+                登录
               </v-btn>
             </v-col>
           </v-row>
@@ -42,12 +42,14 @@
 <script>
 import loginToBack from "@/ax";
 import {ElMessage} from "element-plus";
+import md5 from "js-md5";
 
 export default {
   data: () =>({
     show1: false,
     valid: false,
     alert_visible: false,
+    tempPW: '',
     form: {
       Id: null,
       Password: '',
@@ -78,6 +80,8 @@ export default {
   }),
   methods: {
     submit(){
+      this.form.Password = md5(this.tempPW);
+      console.log(this.form);
       loginToBack.post("/log", this.form)
         .then((res) => {
           console.log(res)

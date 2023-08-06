@@ -13,7 +13,7 @@ import { createApp } from 'vue'
 // Plugins
 import { registerPlugins } from '@/plugins'
 
-import router from '@/router/index.js'
+import router from '@/router/login&register'
 import axios from 'axios'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
