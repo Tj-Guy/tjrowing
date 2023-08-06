@@ -120,7 +120,7 @@ export default {
     submit(){
       this.Form.Password = md5(this.tempPW);
       console.log(this.Form)
-      loginToBack.post("/signup", this.Form)
+      loginToBack.put("/log", this.Form)
         .then((res) => {
           console.log(res)
           if(res.status === 200)
