@@ -18,7 +18,7 @@ namespace AirRowingBackend.Controllers
     // 定义AirRowingBackend命名空间下的Controllers命名空间
     [ApiController]
     // 为此Controller定义路由为"log"
-    [Route("api/login")]
+    [Route("login")]
     public class LoginController : ControllerBase
     {
         // 定义数据库的上下文，用于操作数据库
@@ -37,7 +37,7 @@ namespace AirRowingBackend.Controllers
         }
         // 定义一个HttpPost方法用于用户登录
         [HttpPost("UserLogin")]
-        public async Task<IActionResult> UserLogin([FromForm] LoginRequest request)
+        public async Task<IActionResult> UserLogin([FromQuery] LoginRequest request)
         {
             // 在数据库中查找用户名和密码都匹配的用户
             var result = await _db.UserInfos.Where(u => u.UserId == request.id &&
@@ -72,7 +72,7 @@ namespace AirRowingBackend.Controllers
 
         // 定义一个HttpPut方法用于用户注册
         [HttpPut("UserRegister")]
-        public async Task<IActionResult> UserRegister([FromForm] RegisterRequest request)
+        public async Task<IActionResult> UserRegister([FromQuery] RegisterRequest request)
         {
             //检查是否有重名用户
             var check= await _db.UserInfos.Where(u => (1 == 1
