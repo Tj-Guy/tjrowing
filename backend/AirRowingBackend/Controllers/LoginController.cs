@@ -18,7 +18,7 @@ namespace AirRowingBackend.Controllers
     // 定义AirRowingBackend命名空间下的Controllers命名空间
     [ApiController]
     // 为此Controller定义路由为"log"
-    [Route("api/login")]
+    [Route("login")]
     public class LoginController : ControllerBase
     {
         // 定义数据库的上下文，用于操作数据库
