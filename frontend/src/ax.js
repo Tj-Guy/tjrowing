@@ -2,12 +2,24 @@ import axios from "axios"
 import {ElMessage} from "element-plus";
 
 const loginToBack =  axios.create({
-  baseURL: "http://47.117.160.47/api",
+  baseURL: "http://47.117.160.47",
   headers: {
     "Content-Type": "application/json",
   },
   timeout: 5000,
 })
+
+loginToBack.interceptors.request.use(
+  configs => {
+    configs.url = configs.url.replace("/api", "")
+    return configs
+  },
+  error => {
+    console.log(this.baseURL + configs.url)
+    console.log(error)
+    return Promise.reject("request error")
+  }
+)
 
 loginToBack.interceptors.response.use(
   response => {
